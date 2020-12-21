@@ -5,13 +5,14 @@ function createGreeter(greeting) {
 
     function greet(name) {
         // here we treat as if name is function
-        console.log(greeting, name())
+        console.log(greeting, name)
     }
 
     return greet
 }
 
 function getName() {
+    console.log(document.getElementById('namebox').value);
     return document.getElementById('namebox').value
 }
 
