@@ -6,6 +6,7 @@ let arr = [246,436,6,346]                       // 3 levels from null
 let obj = {a: 10, b: 'asdasd'}                  // 2 levels from null
 let fun = function () { console.log ('yay!') }  // 3 levels from null
 
+
 // if x and y are not primitive 
 // x == y : true <- what does this mean ? 
 // this means they are reference to the same object in memory 
