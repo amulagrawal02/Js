@@ -1,0 +1,21 @@
+#contianer
+{
+    display:  flex;
+    justify-content: center;
+}
+#list
+{
+    font-size: 30pt;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center; */
+    
+    color:blue;
+
+}
+li:hover
+{
+    text-decoration: line-through red;
+    cursor: pointer;
+    
+}
