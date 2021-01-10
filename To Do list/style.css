@@ -13,9 +13,12 @@
     color:blue;
 
 }
-li:hover
+button
 {
-    text-decoration: line-through red;
+    margin-left: 20px;
+}
+button:hover{
+
+    color:  red;
     cursor: pointer;
-    
 }
